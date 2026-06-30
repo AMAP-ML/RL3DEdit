@@ -1,0 +1,14 @@
+# RL3DEdit inference dependencies
+# Tested with Python 3.10, CUDA 12.x.
+torch>=2.4
+torchvision
+diffusers>=0.37.1
+transformers>=4.44
+safetensors
+accelerate
+huggingface_hub
+sentencepiece
+protobuf
+Pillow
+# Optional: LLM-based instruction enhancement (--enhance). Any OpenAI-compatible API.
+openai
